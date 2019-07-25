@@ -164,12 +164,15 @@ body {
 }
 
 .nav-item {
-	margin: 20px 1000py;
+	width: 5%;
+	margin: 10px 10px;
 	padding: 25px;
 	display: inline-block;
 	color: gray;
 }
-
+.logo {
+margin: .1px;
+}
 .top {
 	
 	font-size: 80px;
@@ -202,21 +205,36 @@ button {
 	text-align: right;
 
 }
-
+.group1 {
+	width: 100%;
+	height: 18%;
+	font-size: 20px;
+	display: inline-flex;
+}
 .p1 {
-	width: 50%;
+	width: 75%;
 	margin: 15px;
 	padding: 1px 185px;
 	text-align: left;
 }
 
 .p2 {
-	width: 50%;
+	width: 75%;
 	margin: 20px;
 	padding: 1px 180px;
 	text-align: left;
 }
-
+.middle-img {
+	width: 46%;
+	height: 20%;
+	text-align: left;
+}
+.group2 {
+	width: 100%;
+	height: 20%;
+	font-size: 20px;
+	display: inline-flex;
+}
 .p3 {
 	width: 33%;
 	margin: 20px;
@@ -238,31 +256,11 @@ button {
 	text-align: left;
 }
 
-.group1 {
-	width: 100%;
-	height: 18%;
-	font-size: 20px;
-	display: inline-flex;
-}
-
-.group2 {
-	width: 100%;
-	height: 20%;
-	font-size: 20px;
-	display: inline-flex;
-}
-
-.middle-img {
-	width: 79%;
-	height: 20%;
-	text-align: center;
-}
-
 .hr {
-	width: 56.7%;
+	width: 62%;
 	margin: 90px;
 	padding: 1px 100px;
-	float: middle;
+
 
 }
 
