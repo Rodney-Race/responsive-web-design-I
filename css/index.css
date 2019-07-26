@@ -179,17 +179,14 @@ margin: 1px;
 	flex-wrap: nowrap;
 	font-size: 80px;
 	color: black;
-	text-align: left;
+	text-align: center;
 	margin: 10px;
 	padding: 5px 230px;
 	display: flex;
 }
-.box {
-    font-size: 72px;
-    color: black;
-    text-align: center;  
-    margin: 35px; 
-    padding: 50px 150px;
+
+h1 {
+	
 }
 button {
 	font-size: 20px;
@@ -201,7 +198,7 @@ button {
 .img {
 	margin: 1px;
 	padding: 30px 10px;
-	text-align: right;
+	
 }
 
 .hr {
@@ -283,6 +280,10 @@ footer {
 }
 
 @media (max-width: 800px) {
+body {
+	width: 100%;
+	text-align: center;
+}
 .nav-container {
 	display: flex;
 	flex-wrap: wrap;
@@ -297,117 +298,118 @@ footer {
 	color: gray;
 }
 .logo {
-	    margin: 1px;
-	}
+	margin: 1px;
+}
 	
-	.top {
-		display: flex;
-		flex-wrap: nowrap;
-		font-size: 80px;
-		color: black;
-		text-align: left;
-		margin: 10px;
-		padding: 5px 230px;
-		display: flex;
-	}
-	.box {
-		font-size: 72px;
-		color: black;
-		text-align: center;  
-		margin: 35px; 
-		padding: 50px 150px;
-	}
-	button {
-		font-size: 20px;
-		margin: 5px;
-		padding: 10px 50px;
-		color: black;
-		background-color: white;
-	}
-	.img {
-		display: none;
-		margin: 1px;
-		padding: 30px 10px;
-		text-align: right;
-	}
+.top {
+	display: flex;
+	flex-wrap: nowrap;
+	font-size: 80px;
+	color: black;
+	text-align: center;
+	margin: 10px;
+	padding: 5px 230px;
 	
-	.hr {
-		width: 62%;
-		margin: 90px;
-		padding: 1px 100px;
-	}
+}
 	
-	.group1 {
-		display: flex;
-		flex-wrap: nowrap;
-		width: 100%;
-		height: 18%;
-		font-size: 20px;
-		display: inline-flex;
-	}
-	.p1 {
-		width: 75%;
-		margin: 15px;
-		padding: 1px 185px;
-		text-align: left;
-	}
-	.p2 {
-		width: 75%;
-		margin: 20px;
-		padding: 1px 180px;
-		text-align: left;
-	}
+h1 {
+		
+}
+button {
+	font-size: 20px;
+	margin: 5px;
+	padding: 10px 50px;
+	color: black;
+	background-color: white;
+}
+.img {
+	display: none;
+	margin: 1px;
+	padding: 30px 10px;
+	text-align: right;
+}
 	
-	.middle-img {
-		width: 46%;
-		height: 20%;
-		text-align: left;
-	}
+.hr {
+	width: 62%;
+	margin: 90px;
+	padding: 1px 100px;
+}
 	
-	.group2 {
-		display: flex;
-		flex-wrap: nowrap;
-		width: 100%;
-		height: 20%;
-		font-size: 20px;
-		display: inline-flex;
-	}
-	.p3 {
-		width: 33%;
-		margin: 20px;
-		padding: 1px 180px;
-		text-align: left;
-	}
-	.p4 {
-		width: 33%;
-		margin: 20px;
-		padding: 1px 180px;
-		text-align: left;
-	}
-	.p5 {
-		width: 33%;
-		margin: 20px;
-		padding: 1px 180px;
-		text-align: left;
-	}
+.group1 {
+	display: flex;
+	flex-wrap: nowrap;
+	width: 100%;
+	height: 18%;
+	font-size: 20px;
+	display: inline-flex;
+}
+.p1 {
+	width: 75%;
+	margin: 15px;
+	padding: 1px 185px;
+	text-align: left;
+}
+.p2 {
+	width: 75%;
+	margin: 20px;
+	padding: 1px 180px;
+	text-align: left;
+}
 	
-	footer {
-		display: inline;
-		text-align: left;
-		margin: 50px;
-		padding: 1px 150px;
-	}
-	.address {
-		margin: 20px;
-		padding: 1px 180px;
-	}
-	.info {
-		margin: 20px;
-		padding: 1px 180px;
+.middle-img {
+	width: 46%;
+	height: 20%;
+	text-align: left;
+}
+	
+.group2 {
+	display: flex;
+	flex-wrap: nowrap;
+	width: 100%;
+	height: 20%;
+	font-size: 20px;
+	display: inline-flex;
+}
+.p3 {
+	width: 33%;
+	margin: 20px;
+	padding: 1px 180px;
+	text-align: left;
+}
+.p4 {
+	width: 33%;
+	margin: 20px;
+	padding: 1px 180px;
+	text-align: left;
+}
+.p5 {
+	width: 33%;
+	margin: 20px;
+	padding: 1px 180px;
+	text-align: left;
+}
+	
+footer {
+	display: inline;
+	text-align: left;
+	margin: 50px;
+	padding: 1px 150px;
+}
+.address {
+	margin: 20px;
+	padding: 1px 180px;
+}
+.info {
+	margin: 20px;
+	padding: 1px 180px;
 	}
 }
 
 @media (max-width: 500px) {
+body {
+	width: 100%;
+	text-align: center;
+}
 .nav-container {
 	display: flex;
 	flex-wrap: wrap;
@@ -419,119 +421,118 @@ footer {
 	
 }
 .nav-item {
-	
 	margin: 1px 80px;
 	padding: 25px;
-	display: inline-block;
+	display: block;
 	color: gray;
+	border-bottom: 1px solid grey;
 	}
 .logo {
 	display: reverse;
 	margin: 10px;
+	border-bottom: 1px solid grey;
 	}
 	
 .top {
 	display: flex;
 	flex-wrap: nowrap;
-	font-size: 80px;
 	color: black;
-	text-align: left;
-	margin: 10px;
-	padding: 5px 230px;
-	display: flex;
+	text-align: center;
+	
+	
 }
-	.box {
-		font-size: 72px;
-		color: black;
-		text-align: center;  
-		margin: 35px; 
-		padding: 50px 150px;
-	}
-	button {
-		font-size: 20px;
-		margin: 5px;
-		padding: 10px 50px;
-		color: black;
-		background-color: white;
-	}
-	.img {
-		margin: 1px;
-		padding: 30px 10px;
-		text-align: right;
-	}
+.box {
+	font-size: 72px;
+	color: black; 
+	margin: 1px; 
+	padding: 1px 1px;
+}
+h1 {
 	
-	.hr {
-		width: 62%;
-		margin: 90px;
-		padding: 1px 100px;
-	}
 	
-	.group1 {
-		display: flex;
-		flex-wrap: nowrap;
-		width: 100%;
-		height: 18%;
-		font-size: 20px;
-		display: inline-flex;
-	}
-	.p1 {
-		width: 75%;
-		margin: 15px;
-		padding: 1px 185px;
-		text-align: left;
-	}
-	.p2 {
-		width: 75%;
-		margin: 20px;
-		padding: 1px 180px;
-		text-align: left;
-	}
+}
+button {
+	color: black;
+	background-color: white;
+}
+.img {
+	margin: 1px;
+	padding: 30px 10px;
+	text-align: right;
+}
 	
-	.middle-img {
-		width: 46%;
-		height: 20%;
-		text-align: left;
-	}
+.hr {
+	width: 62%;
+	margin: 90px;
+	padding: 1px 100px;
+}
 	
-	.group2 {
-		display: flex;
-		flex-wrap: nowrap;
-		width: 100%;
-		height: 20%;
-		font-size: 20px;
-		display: inline-flex;
-	}
-	.p3 {
-		width: 33%;
-		margin: 20px;
-		padding: 1px 180px;
-		text-align: left;
-	}
-	.p4 {
-		width: 33%;
-		margin: 20px;
-		padding: 1px 180px;
-		text-align: left;
-	}
-	.p5 {
-		width: 33%;
-		margin: 20px;
-		padding: 1px 180px;
-		text-align: left;
-	}
+.group1 {
+	display: flex;
+	flex-wrap: nowrap;
+	display: block;
+	display: inline-flex;
+	width: 100%;
+	font-size: 20px;
 	
-	footer {
-		display: inline;
-		text-align: left;
-		margin: 50px;
-		padding: 1px 150px;
-	}
-	.address {
-		margin: 20px;
-		padding: 1px 180px;
-	}
-	.info {
-		margin: 20px;
-		padding: 1px 180px;
-	}
+}
+.p1 {
+	width: 50%;
+	margin: 15px;
+	padding: 1px 185px;
+	text-align: left;
+}
+.p2 {
+	width: 50%;
+	margin: 20px;
+	padding: 1px 180px;
+	text-align: left;
+}
+	
+.middle-img {
+	width: 46%;
+	height: 20%;
+	text-align: left;
+}
+	
+.group2 {
+	display: flex;
+	flex-wrap: nowrap;
+	width: 100%;
+	height: 20%;
+	font-size: 20px;
+	display: inline-flex;
+}
+.p3 {
+	width: 33%;
+	margin: 20px;
+	padding: 1px 180px;
+	text-align: left;
+}
+.p4 {
+	width: 33%;
+	margin: 20px;
+	padding: 1px 180px;
+	text-align: left;
+}
+.p5 {
+	width: 33%;
+	margin: 20px;
+	padding: 1px 180px;
+	text-align: left;
+}
+	
+footer {
+	display: inline;
+	text-align: left;
+	margin: 50px;
+	padding: 1px 150px;
+}
+.address {
+	margin: 20px;
+	padding: 1px 180px;
+}
+.info {
+	margin: 20px;
+	padding: 1px 180px;
 }
